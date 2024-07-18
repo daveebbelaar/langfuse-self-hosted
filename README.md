@@ -2,7 +2,9 @@
 Run a self-hosted langfuse instance using this [self hosted guide](https://langfuse.com/docs/deployment/self-host).
 
 ## Dependencies
-Docker and docker compose
+- Docker: https://www.docker.com/get-started/
+- Python: https://www.python.org/downloads/
+- OpenAI: https://platform.openai.com/docs/quickstart
 
 ## Getting Started
 - Run `cp .env.example .env` and replace values appropriately in the .env file
