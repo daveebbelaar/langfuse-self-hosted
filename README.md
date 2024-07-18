@@ -55,24 +55,24 @@ main()
 
 To set up GitHub authentication in your app, you need to:
 
-1. **Create a GitHub OAuth App**
-2. **Configure Environment Variables**
+1. Create a GitHub OAuth App
+2. Configure Environment Variables
 
 Here are the detailed steps:
 
 ### Step 1: Create a GitHub OAuth App
 
-1. **Go to GitHub Settings:**
+1. Go to GitHub Settings:
    - Navigate to [GitHub Developer Settings](https://github.com/settings/developers).
 
-2. **Register a New OAuth Application:**
+2. Register a New OAuth Application:
    - Click on "New OAuth App".
    - Fill in the required fields:
      - **Application name:** Your app's name.
      - **Homepage URL:** The URL of your app (e.g., `http://localhost:3000` for local development).
      - **Authorization callback URL:** The URL where GitHub will redirect users after authentication (e.g., `http://localhost:3000/api/auth/callback/github`).
 
-3. **Save the Application:**
+3. Save the Application:
    - After filling in the details, click "Register application".
    - You will get a **Client ID** and **Client Secret**.
 
