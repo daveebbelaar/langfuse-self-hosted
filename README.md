@@ -7,6 +7,7 @@ Run a self-hosted langfuse instance using this [self hosted guide](https://langf
 - OpenAI: https://platform.openai.com/docs/quickstart
 
 ## Getting Started
+- Clone this repository and open it up in your IDE or terminal
 - Run `cp .env.example .env` and replace values appropriately in the .env file
 - Run `docker compose up -d` to get the langfuse instance running.
 - Navigate to `http://localhost:3000`
