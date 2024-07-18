@@ -1,5 +1,5 @@
 # Datalumina Langfuse
-Using this [self hosted guide](https://langfuse.com/docs/deployment/self-host), run a self-hosted langfuse instance
+Run a self-hosted langfuse instance using this [self hosted guide](https://langfuse.com/docs/deployment/self-host).
 
 ## Dependencies:
 Docker and docker compose
