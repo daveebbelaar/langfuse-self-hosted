@@ -15,7 +15,8 @@ Run a self-hosted langfuse instance using this [self hosted guide](https://langf
 ## Dashboard
 - Create a new project
 - Go to settings and click `Create new API keys`
-- Copy the Secret Key and Public Key and store it in the `.env` file of your LLM project along with the host:
+- Copy the Secret Key and Public Key 
+- Store keys in the `.env` file within your LLM project:
     
 ```
 LANGFUSE_SECRET_KEY="sk-your-key"
