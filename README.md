@@ -1,10 +1,10 @@
 # Datalumina Langfuse
 Run a self-hosted langfuse instance using this [self hosted guide](https://langfuse.com/docs/deployment/self-host).
 
-## Dependencies:
+## Dependencies
 Docker and docker compose
 
-## Getting started:
+## Getting Started
 - Run `cp .env.example .env` and replace values appropriately in the .env file
 - Run `docker compose up -d` to get the langfuse instance running.
 - Navigate to `http://localhost:3000`
@@ -15,13 +15,13 @@ Docker and docker compose
 - Go to settings and click `Create new API keys`
 - Copy the Secret Key and Public Key and store it in the `.env` file of your LLM project along with the host:
     
-    ```
-    LANGFUSE_SECRET_KEY="sk-your-key"
-    LANGFUSE_PUBLIC_KEY="pk-your-key"
-    LANGFUSE_HOST="http://localhost:3000"
-    ```
+```
+LANGFUSE_SECRET_KEY="sk-your-key"
+LANGFUSE_PUBLIC_KEY="pk-your-key"
+LANGFUSE_HOST="http://localhost:3000"
+```
 
-## LLM Project
+## Project Configuration
 - Within your project, make sure you have langfuse installed with `pip install langfuse`
 - Use the OpenAI integration and the observe decorator to trace and automatically capture all model parameters
   
