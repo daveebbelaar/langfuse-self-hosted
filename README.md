@@ -1,4 +1,4 @@
-# Datalumina Langfuse
+# Self-Host Langfuse
 Run a self-hosted langfuse instance using this [self hosted guide](https://langfuse.com/docs/deployment/self-host).
 
 ## Dependencies
